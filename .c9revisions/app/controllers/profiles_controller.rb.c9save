@@ -1,0 +1,19 @@
+{"ts":1372723089683,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class ProfilesController < ApplicationController\n  def show\n  end\nend\n"]],"start1":0,"start2":0,"length1":0,"length2":70}]],"length":70}
+{"contributors":[],"silentsave":false,"ts":1372723173321,"patch":[[{"diffs":[[0,"ef show\n"],[1,"      render file: 'public/404'\n"],[0,"  end\nen"]],"start1":52,"start2":52,"length1":16,"length2":48}]],"length":102,"saved":false}
+{"ts":1372723214390,"patch":[[{"diffs":[[0,"lic/404'"],[1,", status: 404, formats: [:html]"],[0,"\n  end\ne"]],"start1":83,"start2":83,"length1":16,"length2":47}]],"length":133,"saved":false}
+{"ts":1372723341842,"patch":[[{"diffs":[[0,"ef show\n"],[1,"      @user = User.find_by_profile_name(params)\n"],[0,"      re"]],"start1":52,"start2":52,"length1":16,"length2":64}]],"length":181,"saved":false}
+{"ts":1372723352593,"patch":[[{"diffs":[[0,"e(params"],[1,"[:id]"],[0,")\n      "]],"start1":98,"start2":98,"length1":16,"length2":21}]],"length":186,"saved":false}
+{"ts":1372723376788,"patch":[[{"diffs":[[0,"s[:id])\n"],[1,"      if @user\n"],[0,"      re"]],"start1":105,"start2":105,"length1":16,"length2":31}]],"length":201,"saved":false}
+{"ts":1372723416754,"patch":[[{"diffs":[[0,"f @user\n"],[1,"          render action: :show\n"],[0,"      re"]],"start1":120,"start2":120,"length1":16,"length2":47}]],"length":232,"saved":false}
+{"ts":1372723463111,"patch":[[{"diffs":[[0,"tion: :show\n"],[1,"      else\n"],[0,"      render"]],"start1":147,"start2":147,"length1":24,"length2":35}]],"length":243,"saved":false}
+{"ts":1372723960594,"patch":[[{"diffs":[[0,"f @user\n"],[1,"          @statuses = Status.all\n"],[0,"        "]],"start1":120,"start2":120,"length1":16,"length2":49}]],"length":276,"saved":false}
+{"ts":1372725625967,"patch":[[{"diffs":[[0,"html]\n  "],[-1,"end"],[0,"\nend\n"]],"start1":260,"start2":260,"length1":16,"length2":13}]],"length":273,"saved":false}
+{"ts":1372725652405,"patch":[[{"diffs":[[0,"html]\n  "],[1,"end"],[0,"\nend\n"]],"start1":260,"start2":260,"length1":13,"length2":16}]],"length":276,"saved":false}
+{"ts":1372725667087,"patch":[[{"diffs":[[0,"]\n  end\n"],[-1,"end"],[0,"\n"]],"start1":264,"start2":264,"length1":12,"length2":9}]],"length":273,"saved":false}
+{"ts":1372725681059,"patch":[[{"diffs":[[0,"]\n  end\n"],[1,"end"],[0,"\n"]],"start1":264,"start2":264,"length1":9,"length2":12}]],"length":276,"saved":false}
+{"ts":1372725772196,"patch":[[{"diffs":[[0," else\n      "],[1,"    "],[0,"render file:"]],"start1":197,"start2":197,"length1":24,"length2":28}]],"length":280,"saved":false}
+{"ts":1372725799413,"patch":[[{"diffs":[[0,"s = "],[-1,"S"],[1,"s"],[0,"tatu"]],"start1":146,"start2":146,"length1":9,"length2":9}]],"length":280,"saved":false}
+{"ts":1372726068275,"patch":[[{"diffs":[[0,"tuses = "],[1,"@user."],[0,"status.a"]],"start1":142,"start2":142,"length1":16,"length2":22}]],"length":286,"saved":false}
+{"ts":1372726103357,"patch":[[{"diffs":[[0,"[:html]\n"],[1,"      end\n"],[0,"  end\nen"]],"start1":268,"start2":268,"length1":16,"length2":26}]],"length":296,"saved":false}
+{"ts":1372726158924,"patch":[[{"diffs":[[0,"  end\n  "],[1," "],[0,"end\nend\n"]],"start1":280,"start2":280,"length1":16,"length2":17}]],"length":297,"saved":false}
+{"ts":1372726282349,"patch":[[{"diffs":[[0,"r.status"],[1,"es"],[0,".all\n   "]],"start1":154,"start2":154,"length1":16,"length2":18}]],"length":299,"saved":false}

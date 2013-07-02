@@ -1,0 +1,14 @@
+{"ts":1372723547692,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"<h1>Profiles#show</h1>\n<p>Find me in app/views/profiles/show.html.erb</p>\n"]],"start1":0,"start2":0,"length1":0,"length2":74}]],"length":74}
+{"contributors":[],"silentsave":false,"ts":1372723618091,"patch":[[{"diffs":[[0,"<"],[-1,"h1>Profiles#show</h1>\n<p>Find me in app/views/profiles/show.html.erb</p"],[1,"div class=\"page-header\""],[0,">\n"],[1,"\n"]],"start1":0,"start2":0,"length1":74,"length2":27}]],"length":27,"saved":false}
+{"ts":1372723708318,"patch":[[{"diffs":[[0,"header\">"],[1,"\n    <h1><%= @user.full_name %></h1>\n\n</div>"],[0,"\n\n"]],"start1":17,"start2":17,"length1":10,"length2":54}]],"length":71,"saved":false}
+{"ts":1372725193251,"patch":[[{"diffs":[[0,"h1>\n"],[-1,"\n"],[0,"</div>\n\n"],[1,"<% if @statuses %>\n\n"]],"start1":58,"start2":58,"length1":13,"length2":32}]],"length":90,"saved":false}
+{"ts":1372725219806,"patch":[[{"diffs":[[0,"tuses %>"],[1,"\n <% @statuses.each"],[0,"\n\n"]],"start1":80,"start2":80,"length1":10,"length2":29}]],"length":109,"saved":false}
+{"ts":1372725240387,"patch":[[{"diffs":[[0,"ses.each"],[1," do |status|"],[0,"\n\n"]],"start1":99,"start2":99,"length1":10,"length2":22}]],"length":121,"saved":false}
+{"ts":1372725245745,"patch":[[{"diffs":[[0,"|status|"],[1," %>"],[0,"\n\n"]],"start1":111,"start2":111,"length1":10,"length2":13}]],"length":124,"saved":false}
+{"ts":1372725304765,"patch":[[{"diffs":[[0,"atus| %>"],[1,"\n <div class=\"well\">\n   <%= status.content %>"],[0,"\n\n"]],"start1":114,"start2":114,"length1":10,"length2":55}]],"length":169,"saved":false}
+{"ts":1372725411616,"patch":[[{"diffs":[[0,"ntent %>"],[1,"\n   <hr />\n   <%= time_ago_in_words(status.created_at), status_path (status) %>"],[0,"\n\n"]],"start1":159,"start2":159,"length1":10,"length2":89}]],"length":248,"saved":false}
+{"ts":1372725416940,"patch":[[{"diffs":[[0,"tus_path"],[-1," "],[0,"(status)"]],"start1":226,"start2":226,"length1":17,"length2":16}]],"length":247,"saved":false}
+{"ts":1372725439046,"patch":[[{"diffs":[[0,"atus) %>"],[1," ago\n </div>  "],[0,"\n\n"]],"start1":237,"start2":237,"length1":10,"length2":24}]],"length":261,"saved":false}
+{"ts":1372725455654,"patch":[[{"diffs":[[0,"\n </div>"],[-1,"  "],[1,"\n \n <% end %>"],[0,"\n\n"]],"start1":249,"start2":249,"length1":12,"length2":23}]],"length":272,"saved":false}
+{"ts":1372725477528,"patch":[[{"diffs":[[0,"% end %>"],[1,"\n<% end %>"],[0,"\n\n"]],"start1":262,"start2":262,"length1":10,"length2":20}]],"length":282,"saved":false}
+{"ts":1372725548026,"patch":[[{"diffs":[[0,">\n   <%="],[1," link_to"],[0," time_ag"]],"start1":176,"start2":176,"length1":16,"length2":24}]],"length":290,"saved":false}

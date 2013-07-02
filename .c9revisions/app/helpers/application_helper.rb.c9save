@@ -1,0 +1,4 @@
+{"ts":1371517378112,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"module ApplicationHelper\nend\n"]],"start1":0,"start2":0,"length1":0,"length2":29}]],"length":29}
+{"contributors":[],"silentsave":false,"ts":1372455461054,"patch":[[{"diffs":[[0,"onHelper"],[1,"\n\n   def flash_class(type)\n       case type\n       when :alert"],[0,"\nend\n"]],"start1":16,"start2":16,"length1":13,"length2":75}]],"length":91,"saved":false}
+{"ts":1372455506191,"patch":[[{"diffs":[[0," :alert\n"],[1,"       \"alert-error\"\n       when :notice\n       \"alert-success\"\n"],[0,"end\n"]],"start1":79,"start2":79,"length1":12,"length2":76}]],"length":155,"saved":false}
+{"ts":1372455569208,"patch":[[{"diffs":[[0,"uccess\"\n"],[1,"       else\n       \"\"\n      end\n   end \n"],[0,"end\n"]],"start1":143,"start2":143,"length1":12,"length2":52}]],"length":195,"saved":false}

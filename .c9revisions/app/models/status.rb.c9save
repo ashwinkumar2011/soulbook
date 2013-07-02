@@ -1,1 +1,9 @@
 {"ts":1371487676845,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class Status < ActiveRecord::Base\n  attr_accessible :content, :name\nend\n"]],"start1":0,"start2":0,"length1":0,"length2":72}]],"length":72}
+{"contributors":[],"silentsave":false,"ts":1371839542708,"patch":[[{"diffs":[[0,"tent"],[-1,", :name"],[0,"\nend"]],"start1":56,"start2":56,"length1":15,"length2":8}]],"length":65,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1372109498925,"patch":[[{"diffs":[[0,":content"],[1,", :user_id"],[0,"\nend\n"]],"start1":52,"start2":52,"length1":13,"length2":23}]],"length":75,"saved":false}
+{"ts":1372109700519,"patch":[[{"diffs":[[0,"user_id\n"],[1,"  belongs_to :user\n"],[0,"end\n"]],"start1":63,"start2":63,"length1":12,"length2":31}]],"length":94,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1372710578727,"patch":[[{"diffs":[[0,"o :user\n"],[1,"  \n  validates :content, presence: true\n"],[0,"end\n"]],"start1":82,"start2":82,"length1":12,"length2":52}]],"length":134,"saved":false}
+{"ts":1372710765629,"patch":[[{"diffs":[[0,"e: true\n"],[1,"                      length: { minimum: 2 }\n"],[0,"end\n"]],"start1":122,"start2":122,"length1":12,"length2":57}]],"length":179,"saved":false}
+{"ts":1372710910722,"patch":[[{"diffs":[[0,"um: 2 }\n"],[1,"  validates :user_id, presence: true                    \n"],[0,"end\n"]],"start1":167,"start2":167,"length1":12,"length2":69}]],"length":236,"saved":false}
+{"ts":1372715574841,"patch":[[{"diffs":[[0,"ength: {"],[-1," "],[0,"minimum:"]],"start1":153,"start2":153,"length1":17,"length2":16},{"diffs":[[0,"nimum: 2"],[-1," "],[0,"}\n  vali"]],"start1":163,"start2":163,"length1":17,"length2":16}]],"length":234,"saved":false}
+{"ts":1372715585279,"patch":[[{"diffs":[[0,"    "],[-1," length: {minimum: 2}"],[0,"\n  v"]],"start1":147,"start2":147,"length1":29,"length2":8}]],"length":213,"saved":false}
